@@ -7,6 +7,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import v1malls from "./v1malls.png";
+import medilinen from "./medilinen.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -21,6 +23,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import share from "./share.svg"
+import redirect from "./redirect.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -50,11 +54,15 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  medilinen,
+  v1malls,
   redux,
   tailwind,
   typescript,
   threejs,
   meta,
+  redirect,
+  share,
   woodapple,
   shopify,
   starbucks,
