@@ -137,7 +137,7 @@ const experiences = [
     ],
   },
   {
-    title: "Clout Application Developer",
+    title: "Cloud Application Developer",
     company_name: "Blazeclan Technologies",
     icon: blazeclan,
     iconBg: "white",
