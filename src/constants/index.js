@@ -17,8 +17,11 @@ import {
   docker,
   meta,
   v1malls,
+  wiseadvice,
+  bullstreet,
   medilinen,
   woodapple,
+  blazeclan,
   starbucks,
   tesla,
   shopify,
@@ -133,6 +136,23 @@ const experiences = [
       "Collaborated closely with backend developers to integrate APIs and ensure seamless communication between the frontend and backend systems.",
     ],
   },
+  {
+    title: "Clout Application Developer",
+    company_name: "Blazeclan Technologies",
+    icon: blazeclan,
+    iconBg: "white",
+    date: "Oct 2024 - Current",
+    points: [
+      "Developed and maintained responsive user interfaces using React.js, ensuring a smooth and intuitive user experience.",
+      "Conducted research on various AI tools to explore potential integrations and enhance project capabilities.",
+      "Created and presented interactive demos of applications and AI solutions to clients, effectively communicating features and benefits.",
+      "Collaborated with designers to implement UI/UX designs, ensuring visual consistency and functionality.",
+      "Assisted in troubleshooting and fixing front-end issues, improving the performance and reliability of applications.",
+      "Learned and applied basic concepts of state management using tools like Redux or Context API in React.",
+      "Participated in team meetings and brainstorming sessions, contributing ideas for improving development workflows.",
+      "Documented research findings and client feedback to support decision-making for future project enhancements."
+    ]    
+  },
 ];
 
 const testimonials = [
@@ -200,6 +220,44 @@ const projects = [
     ],
     image: v1malls,
     source_code_link: "https://admin.v1malls.com/login",
+  },
+  {
+    name: "Wiseadvice",
+description:  
+  "Wiseadvice is a platform for sharing insightful blogs across various topics. The platform features a user-friendly blog page for readers to explore engaging content and an admin portal for managing blog creation and updates. The admin portal ensures efficient management of blog posts, providing a seamless experience for administrators to add and organize content effortlessly.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wiseadvice,
+    source_code_link: "https://wiseadvice.in/",
+  },
+  {
+    name: "Bullstreet Group",
+description:  
+  "Bullstreet Group is an engaging platform dedicated to sharing insightful blogs on finance, investments, and market trends. Designed with a user-friendly interface, the platform allows readers to explore and stay informed with well-researched content, making it an essential resource for financial enthusiasts and professionals alike.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: bullstreet,
+    source_code_link: "https://bullstreetgroup.com/",
   },
 ];
 

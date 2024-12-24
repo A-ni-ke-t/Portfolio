@@ -9,6 +9,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import v1malls from "./v1malls.png";
 import medilinen from "./medilinen.png";
+import bullstreet from "./bullstreet.png"
+import wiseadvice from "./wiseadvice.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -31,6 +33,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import woodapple from "./company/woodapple.svg"
+import blazeclan from "./company/blazeclan.svg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -65,10 +68,13 @@ export {
   share,
   woodapple,
   shopify,
+  blazeclan,
   starbucks,
   tesla,
   carrent,
   jobit,
   navlogo,
   tripguide,
+  bullstreet,
+  wiseadvice,
 };
